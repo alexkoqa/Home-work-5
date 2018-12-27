@@ -1,0 +1,147 @@
+body {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+/*--------------start section_1--------------*/
+.wrap{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.header{
+	padding-top: 77px;
+	margin-bottom: 96px;
+}
+.foto_book{
+	display: inline-block;
+	/*width: 405px;
+	height: 630px;*/
+	width: 43%;
+	vertical-align: middle;
+}
+.main_foto{
+	width: 90%;
+}
+.wrap_block_text{
+	display: inline-block;
+	margin-left: 75px;
+	vertical-align: middle;
+	width: 49%;
+}
+h1{
+	font-size: 44pt;
+	margin-bottom: 15px;
+}
+.title_book{
+	font-size: 30pt;
+	margin-bottom: 35px;
+}
+.description{
+	font-size: 15pt;
+	margin-bottom: 47px;
+}
+.price{
+	font-size: 48pt;
+	margin-bottom: 53px;
+}
+.button_1{
+	width: 175px;
+	height: 67px;
+	color: #000;
+	background-color: #f15921;
+	font-size: 24pt;
+	color: rgba(255, 255, 255, 255);
+	border: 2px solid #f15921;
+	border-radius: 5px;
+	transition: 0.5s;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.button_1:hover{
+	background-color: #D0FF00;
+	cursor: pointer;
+	transition: 0.5s;
+	border:2px solid #000;
+	color: #000;
+}
+.button_1:focus{
+	outline: none;
+}
+.button_o{
+	width: 287px;
+	height: 67px;
+	background-color: transparent;
+	border: 2px solid #f15921;
+	font-size: 24pt;
+	color: #f15921;
+}
+.button_o:hover{
+	background-color: #FF2100;
+	cursor: pointer;
+	border:2px solid #FF2100;
+	color: #fff;
+}
+
+/*-------------end section_1-------------*/
+
+/*--------------start section_2--------------*/
+.section_2{
+	background-color: #f2f2f2;
+}
+.advantages{
+	padding-top: 89px;
+}
+.advantages_title{
+	font-size: 30pt;
+	color: rgba(51, 51, 51, 255);
+	text-align: center;
+	margin-bottom: 90px;
+}
+.advantages_block{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 100px;
+	width: 24%;
+}
+.foto{
+	margin-bottom: 16px;
+}
+.advantages_block_title{
+	font-size: 15pt;
+	color: rgba(51, 51, 51, 255);
+}
+/*--------------end section_2--------------*/
+
+/*---------------start section_3---------------*/
+
+.footer{
+	padding-top: 100px;
+	padding-bottom: 110px;
+}
+.footer_title{
+	font-size: 30pt;
+	color: rgba(51, 51, 51, 255);
+	margin-bottom: 70px;
+	text-align: center;
+}
+.footer_main_block_foto{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 13px;
+}
+.footer_foto_block{
+	width: 24%;
+}
+.footer_foto{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 20px black;
+	border: 2px solid #000;
+}
+
+.footer_main_block_foto_2{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*--------------end section_3--------------*/
